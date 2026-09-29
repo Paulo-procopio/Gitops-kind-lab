@@ -15,7 +15,7 @@ spec:
 
     - repoURL: https://github.com/Paulo-procopio/Gitops-kind-lab.git
       targetRevision: main
-      path: manifests/yamls
+      path: manifestos/yamls
 
   destination:
     server: https://kubernetes.default.svc
