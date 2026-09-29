@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-lab
-  namespace: esteira-lab
+  namespace: cd-lab
 
 spec:
   replicas: 2

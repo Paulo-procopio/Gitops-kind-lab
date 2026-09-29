@@ -13,7 +13,7 @@ spec:
 
   destination:
     server: https://kubernetes.default.svc
-    namespace: esteira-lab
+    namespace: cd-lab
 
   syncPolicy:
     automated:
