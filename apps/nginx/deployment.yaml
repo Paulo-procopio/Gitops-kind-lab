@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-lab
+  namespace: esteira-lab
+spec:
+  selector:
+    matchLabels:
+      app: nginx-lab
+  template:
+    metadata:
+      labels:
+        app: nginx-lab
+    spec:
+      containers:
+      - name: nginx-lab
+        image: nginx:1.27
+        ports:
+        - containerPort: 80
