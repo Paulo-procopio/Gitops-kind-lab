@@ -13,10 +13,6 @@ spec:
       targetRevision: main
       path: apps/nginx
 
-    - repoURL: https://github.com/Paulo-procopio/Gitops-kind-lab.git
-      targetRevision: main
-      path: manifestos/yamls
-
   destination:
     server: https://kubernetes.default.svc
     namespace: cd-lab
